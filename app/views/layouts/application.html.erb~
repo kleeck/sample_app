@@ -2,7 +2,6 @@
 <html>
 	<head>
 		<title>RoR3Tutorial: Sample App | <%= @title %></title>
-		<%= csrf_meta_tag %>
 	</head>
 	<body>
 		<%= yield %>

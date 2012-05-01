@@ -28,6 +28,12 @@ end
 
 group :test do
 	gem 'rspec-rails'
+	gem 'capybara'
+  	gem 'guard-rspec'
+  	gem 'minitest'
+  	gem 'webrat'
+  	gem 'spork'
+  	gem 'guard-spork'
 end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
